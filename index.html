@@ -17,14 +17,14 @@
 
             // iOS App Store link
             var iosAppStore = "https://apps.apple.com/app/id1257705763"; // Replace with real ID
-
+/* 
             // Try opening the app using iframe
       var iframe = document.createElement("iframe");
       iframe.style.display = "none";
       iframe.src = appScheme;
       document.body.appendChild(iframe);
-            
-
+             */
+window.location = appScheme;
             // Fallback after 1 second
             setTimeout(function () {
                 if (/android/i.test(userAgent)) {
